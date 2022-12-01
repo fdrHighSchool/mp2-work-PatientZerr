@@ -15,34 +15,35 @@
 2. Label each as either correct or incorrect syntax. If incorrect, rewrite below:
   * if (x == y) {
 
-    * **YOUR WRITING HERE**
-
+correct
   * if [x == 10] {
+    * if (x == 10) {
 
-    * **YOUR WRITING HERE**
-
+incorrect
   * if x = 10 then {
-
-    * **YOUR WRITING HERE**
-
+if ( x==10 ) {
+incorrect
   * if (x equals 42) {
+if (x.equals 42) {
 
-    * **YOUR WRITING HERE**
-
+incorrect
   * if (x => y) {
 
-    * **YOUR WRITING HERE**
-
+correct
 
 3. Fix the error in the code below:
 
   ```
   Scanner console = new Scanner(System.in);
   System.out.print("What is your favorite color? ");
-  String name = console.next();
+  String name = console.nextLine();
   if (name == "blue") {
       System.out.println("Mine, too!");
   }
   ```
 
-  * **YOUR WRITING HERE**
+Scanner console = new Scanner(System.in);
+  System.out.print("What is your favorite color? ");
+  String name = console.nextLine();
+  if (name == "blue") {
+      System.out.println("Mine, too!");
