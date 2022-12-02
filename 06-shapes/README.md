@@ -7,7 +7,9 @@
 000111222333444555666777888999
 000111222333444555666777888999
 ```
-  * **YOUR WRITING HERE**
+use two for loops one so it prints the number consecutively another one to print each number 3 times
+
+i +1
 
 
 2. Write a plan for the following output:
@@ -18,4 +20,6 @@
 999998888877777666665555544444333332222211111
 999998888877777666665555544444333332222211111
 ```
-  * **YOUR WRITING HERE**
+ use two for loops one so it prints the number consecutively another one to print each number 3 times
+
+i -1
